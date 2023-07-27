@@ -36,7 +36,6 @@ const Videos = () => {
           return (
             <Button
               colorScheme={'purple'}
-              p={'4'}
               variant={'ghost'}
               onClick={() => setVideoSrc(video)}
             >

@@ -21,7 +21,11 @@ const Footer = () => {
     <Box bgColor={'blackAlpha.900'} minH={'40'} p={'16'}>
       <Stack direction={['column', 'row']}>
         <VStack alignItems={'stretch'} w={'full'} px={'4'}>
-          <Heading size={'md'} textTransform={'uppercase'}>
+          <Heading
+            size={'md'}
+            textTransform={'uppercase'}
+            color={'whiteAlpha.900'}
+          >
             Subscribe to get the latest news
           </Heading>
           <HStack borderBottom={'2px solid white'} py="2">
@@ -30,6 +34,7 @@ const Footer = () => {
               placeholder="Insert Your Email"
               focusBorderColor={'none'}
               borderRadius={'none'}
+              color={'whiteAlpha.900'}
             />
             <Button
               colorScheme={'purple'}
@@ -47,12 +52,17 @@ const Footer = () => {
           w={'full'}
           borderLeft={['none', '2px solid white']}
           borderRight={['none', '2px solid white']}
+          color={'whiteAlpha.900'}
         >
           <Heading>Pulp Fiction</Heading>
           <Text>All Rights Reserved to Agastsya</Text>
         </VStack>
 
-        <VStack w={'full'} borderRight={['none', '2px solid white']}>
+        <VStack
+          w={'full'}
+          borderRight={['none', '2px solid white']}
+          color={'whiteAlpha.900'}
+        >
           <Heading> Follow us </Heading>
           <HStack>
             <a href="https://www.youtube.com" color={'purple'}>

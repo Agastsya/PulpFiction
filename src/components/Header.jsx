@@ -63,11 +63,19 @@ const Header = () => {
               left={'0'}
               justifyContent={'center'}
             >
-              <Button colorScheme={'purple'} variant={'outline'}>
-                <Link to="/login">Log In</Link>
+              <Button
+                onClick={onClose}
+                colorScheme={'purple'}
+                variant={'outline'}
+              >
+                <Link to={'/login'}>Log In</Link>
               </Button>
 
-              <Button colorScheme={'purple'} variant={'outline'}>
+              <Button
+                onClick={onClose}
+                colorScheme={'purple'}
+                variant={'outline'}
+              >
                 <Link to="/register">Register</Link>
               </Button>
             </HStack>
