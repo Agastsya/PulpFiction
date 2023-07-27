@@ -14,7 +14,7 @@ const Login = () => {
     <Container maxW={['full', 'container.xl']} h={'100vh'} p={'16'}>
       <form>
         <VStack
-          alignItems={'strech'}
+          alignItems={'stretch'}
           type="email"
           spacing={'8'}
           w={['full', '96']}
@@ -35,15 +35,15 @@ const Login = () => {
             required
             type={'password'}
           />
-
           <Button color={'purple.500'} variant={'link'} alignSelf={'flex-end'}>
             <Link to={'/forgotpassword'}>Forgot Password?</Link>
           </Button>
           <Button colorScheme={'purple'}>Login</Button>
+
           <Text alignSelf={'flex-end'}>
             New Here?
             <Button colorScheme={'purple'} variant={'link'} px={'2'}>
-              <Link to={'/signup'}>Sign Up</Link>
+              <Link to={'/register'}>Sign Up</Link>
             </Button>
           </Text>
         </VStack>
