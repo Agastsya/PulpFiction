@@ -55,7 +55,7 @@ const Footer = () => {
         <VStack w={'full'} borderRight={['none', '2px solid white']}>
           <Heading> Follow us </Heading>
           <HStack>
-            <a href="https://www.youtube.com">
+            <a href="https://www.youtube.com" color={'purple'}>
               <AiFillYoutube />
             </a>
             <a href="https://www.youtube.com">
