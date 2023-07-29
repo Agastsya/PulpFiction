@@ -6,6 +6,7 @@ import Videos from './components/Videos';
 import Upload from './components/Upload';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import Test from './components/Test';
 const App = () => {
   return (
     <Router>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/upload" element={<Upload />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<SignUp />}></Route>
+        <Route path="/test" element={<Test />}></Route>
       </Routes>
       <Footer />
     </Router>
